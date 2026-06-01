@@ -1,5 +1,17 @@
 # 🚀 Insurance Data Pipeline Project
 
+<p>
+<img src="https://img.shields.io/badge/Python-3.13-blue?logo=python" />
+<img src="https://img.shields.io/badge/Pandas-Data%20Processing-yellow" />
+<img src="https://img.shields.io/badge/Parquet-Storage-green" />
+<img src="https://img.shields.io/badge/JSON-Control%20Files-orange" />
+<img src="https://img.shields.io/badge/Git-GitHub-red?logo=git" />
+<img src="https://img.shields.io/badge/VSCode-IDE-blue?logo=visualstudiocode" />
+<img src="https://img.shields.io/badge/Data%20Engineering-Pipeline-purple" />
+<img src="https://img.shields.io/badge/Retention-ZIP%20Archival-black" />
+</p>
+
+---
 ## Table of Contents
 
 * [Overview](#-overview)
