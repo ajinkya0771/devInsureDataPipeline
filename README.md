@@ -1,5 +1,19 @@
 # 🚀 Insurance Data Pipeline Project
 
+## Table of Contents
+
+* [Overview](#-overview)
+* [Architecture Workflow](#️-architecture-workflow)
+* [Features](#️-features)
+* [Technologies Used](#️-technologies-used)
+* [Project Structure](#-project-structure)
+* [Pipeline Execution Flow](#-pipeline-execution-flow)
+* [Execution Screenshots](#-execution-screenshots)
+* [How To Run](#️-how-to-run)
+* [Sample Outputs](#-sample-outputs)
+* [Learning Outcomes](#-learning-outcomes)
+* [Author](#-author)
+
 ## 📌 Overview
 
 An end-to-end **Insurance Data Pipeline (IDP)** built using **Python** and **Pandas** to automate ingestion, validation, preprocessing, transformation, semantic reporting, and archival of insurance datasets.
@@ -186,7 +200,5 @@ Through this project, I learned:
 
 **Ajinkya Dhote**
 
-AI/ML & Data Engineering Enthusiast
+AI/ML & Data Engineering Enthusiast  
 Focused on Python, AWS, Data Engineering, and Automation Projects.
-
----
