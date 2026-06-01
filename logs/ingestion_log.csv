@@ -1,0 +1,37 @@
+timestamp,layer,file_name,status,row_count,message
+2026-05-28 13:26:46,INGESTION,claims_20251017.csv,SUCCESS,100,File validated successfully
+2026-05-28 14:26:48,INGESTION,agents_20251017.csv,FAILED,0,'columns'
+2026-05-28 14:26:48,INGESTION,claims_20251017.csv,FAILED,0,'columns'
+2026-05-28 14:26:48,INGESTION,customers_20251017.csv,FAILED,0,'columns'
+2026-05-28 14:26:48,INGESTION,payments_20251017.csv,FAILED,0,'columns'
+2026-05-28 14:26:48,INGESTION,policies_20251017.csv,FAILED,0,'columns'
+2026-05-28 14:38:22,INGESTION,agents_20251017.csv,FAILED,0,'columns'
+2026-05-28 14:38:22,INGESTION,claims_20251017.csv,FAILED,0,'columns'
+2026-05-28 14:38:22,INGESTION,customers_20251017.csv,FAILED,0,'columns'
+2026-05-28 14:38:22,INGESTION,payments_20251017.csv,FAILED,0,'columns'
+2026-05-28 14:38:22,INGESTION,policies_20251017.csv,FAILED,0,'columns'
+2026-05-28 14:42:49,INGESTION,agents_20251017.csv,FAILED,0,'columns'
+2026-05-28 14:42:49,INGESTION,claims_20251017.csv,FAILED,0,'columns'
+2026-05-28 14:42:49,INGESTION,customers_20251017.csv,FAILED,0,'columns'
+2026-05-28 14:42:49,INGESTION,payments_20251017.csv,FAILED,0,'columns'
+2026-05-28 14:42:49,INGESTION,policies_20251017.csv,FAILED,0,'columns'
+2026-05-28 14:48:59,INGESTION,agents_20251017.csv,SUCCESS,15,Validation successful
+2026-05-28 14:48:59,INGESTION,claims_20251017.csv,SUCCESS,182,Validation successful
+2026-05-28 14:48:59,INGESTION,customers_20251017.csv,SUCCESS,80,Validation successful
+2026-05-28 14:48:59,INGESTION,payments_20251017.csv,SUCCESS,182,Validation successful
+2026-05-28 14:48:59,INGESTION,policies_20251017.csv,SUCCESS,123,Validation successful
+2026-05-28 15:08:35,INGESTION,agents_20251017.csv,SUCCESS,15,Validation successful
+2026-05-28 15:08:35,INGESTION,claims_20251017.csv,SUCCESS,182,Validation successful
+2026-05-28 15:08:35,INGESTION,customers_20251017.csv,SUCCESS,80,Validation successful
+2026-05-28 15:08:35,INGESTION,payments_20251017.csv,SUCCESS,182,Validation successful
+2026-05-28 15:08:35,INGESTION,policies_20251017.csv,SUCCESS,123,Validation successful
+2026-05-29 09:19:52,INGESTION,agents_20251017.csv,SUCCESS,15,Validation successful
+2026-05-29 09:19:52,INGESTION,claims_20251017.csv,SUCCESS,182,Validation successful
+2026-05-29 09:19:52,INGESTION,customers_20251017.csv,SUCCESS,80,Validation successful
+2026-05-29 09:19:52,INGESTION,payments_20251017.csv,SUCCESS,182,Validation successful
+2026-05-29 09:19:52,INGESTION,policies_20251017.csv,SUCCESS,123,Validation successful
+2026-05-29 13:57:07,INGESTION,agents_20251017.csv,SUCCESS,15,Validation successful
+2026-05-29 13:57:07,INGESTION,claims_20251017.csv,SUCCESS,182,Validation successful
+2026-05-29 13:57:07,INGESTION,customers_20251017.csv,SUCCESS,80,Validation successful
+2026-05-29 13:57:07,INGESTION,payments_20251017.csv,SUCCESS,182,Validation successful
+2026-05-29 13:57:07,INGESTION,policies_20251017.csv,SUCCESS,123,Validation successful
