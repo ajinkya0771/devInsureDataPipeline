@@ -14,3 +14,8 @@ timestamp,layer,file_name,status,row_count,message
 2026-05-29 13:57:07,PREPROCESSING,customers_20251017.csv,SUCCESS,80,Preprocessing successful
 2026-05-29 13:57:07,PREPROCESSING,payments_20251017.csv,SUCCESS,182,Preprocessing successful
 2026-05-29 13:57:07,PREPROCESSING,policies_20251017.csv,SUCCESS,123,Preprocessing successful
+2026-06-01 13:02:37,PREPROCESSING,agents_20251017.csv,SUCCESS,15,Preprocessing successful
+2026-06-01 13:02:37,PREPROCESSING,claims_20251017.csv,SUCCESS,182,Preprocessing successful
+2026-06-01 13:02:37,PREPROCESSING,customers_20251017.csv,SUCCESS,80,Preprocessing successful
+2026-06-01 13:02:37,PREPROCESSING,payments_20251017.csv,SUCCESS,182,Preprocessing successful
+2026-06-01 13:02:37,PREPROCESSING,policies_20251017.csv,SUCCESS,123,Preprocessing successful

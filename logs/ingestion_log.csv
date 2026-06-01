@@ -35,3 +35,8 @@ timestamp,layer,file_name,status,row_count,message
 2026-05-29 13:57:07,INGESTION,customers_20251017.csv,SUCCESS,80,Validation successful
 2026-05-29 13:57:07,INGESTION,payments_20251017.csv,SUCCESS,182,Validation successful
 2026-05-29 13:57:07,INGESTION,policies_20251017.csv,SUCCESS,123,Validation successful
+2026-06-01 13:02:37,INGESTION,agents_20251017.csv,SUCCESS,15,Validation successful
+2026-06-01 13:02:37,INGESTION,claims_20251017.csv,SUCCESS,182,Validation successful
+2026-06-01 13:02:37,INGESTION,customers_20251017.csv,SUCCESS,80,Validation successful
+2026-06-01 13:02:37,INGESTION,payments_20251017.csv,SUCCESS,182,Validation successful
+2026-06-01 13:02:37,INGESTION,policies_20251017.csv,SUCCESS,123,Validation successful

@@ -1,58 +1,48 @@
 import os
 import shutil
 from datetime import datetime
+from zipfile import ZipFile
 
 
 INGESTION_FOLDER = "data/ingestion"
-RETENTION_FOLDER = "data/retention"
+RETENTION_FOLDER = "data/retention/archive"
 
 
 def archive_files():
-    """
-    Archive processed ingestion files
-    """
 
     print("Retention layer started")
 
-    # Create retention folder if not exists
-    os.makedirs(
-        RETENTION_FOLDER,
-        exist_ok=True
-    )
+    os.makedirs(RETENTION_FOLDER, exist_ok=True)
 
-    # Timestamp for archive folder
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    archive_folder = os.path.join(
+    zip_file_path = os.path.join(
         RETENTION_FOLDER,
-        f"archive_{timestamp}"
+        f"archive_{timestamp}.zip"
     )
 
-    os.makedirs(
-        archive_folder,
-        exist_ok=True
-    )
+    csv_files = [
+        file_name
+        for file_name in os.listdir(INGESTION_FOLDER)
+        if file_name.endswith(".csv")
+    ]
 
-    # Move all CSV files
-    for file_name in os.listdir(INGESTION_FOLDER):
+    with ZipFile(zip_file_path, "w") as zip_file:
 
-        if file_name.endswith(".csv"):
+        for file_name in csv_files:
 
             source_path = os.path.join(
                 INGESTION_FOLDER,
                 file_name
             )
 
-            destination_path = os.path.join(
-                archive_folder,
-                file_name
+            zip_file.write(
+                source_path,
+                arcname=file_name
             )
 
-            shutil.move(
-                source_path,
-                destination_path
-            )
+            os.remove(source_path)
 
             print(f"Archived → {file_name}")
 
-    print(f"Retention completed → {archive_folder}")
+    print(f"Retention completed → {zip_file_path}")
